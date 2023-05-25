@@ -72,4 +72,17 @@ body{
     padding: 10px;
     font-size: 18px !important;
   }
+  .headerarea .navbar-toggler {
+    border: none;
+    box-shadow: none;
+  }
+  .headerarea .nav-link {
+    position: relative;
+  }
+  .headerarea .nav-link::after  {
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translate(-50%);
+  }
 }
