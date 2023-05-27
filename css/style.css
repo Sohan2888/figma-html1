@@ -206,7 +206,7 @@ font-size: 45px;
 }
 .extension .project-text h3{
   font-weight: 700;
-font-size: 55px;
+font-size: 45px;
 }
 .extension .project-text h3 span{
   position: relative;
@@ -243,4 +243,57 @@ font-size: 55px;
 .extension .hero-image{
   size: 50%;
   margin-top: 50px;
+}
+}
+
+/* customise area css*/
+.customise-section{
+  background-color: #fff;
+  padding: 70px 0;
+}
+.customise-section .project-text h3{
+  color: #212529;
+  font-weight: 700;
+font-size: 45px;
+}
+.customise-section .project-text p{
+  color: #212529;
+}
+.customise-section .project-text h3 span{
+  position: relative;
+  z-index: 1;
+}
+.customise-section .project-text h3 span::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(element.png);
+  background-repeat: no-repeat;
+}
+@media (max-width: 991px) {
+  .customise-section .project-text{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .customise-section .project-text h3{
+    font-size: 36px;
+    z-index: -1;
+    padding-bottom: 10px;
+  }
+  .customise-section .project-text{
+    text-align: center;
+    
+  }
+  .customise-section .project-textt h3{ 
+    font-size: 30px;
+}
+.customise-section .hero-image{
+  size: 50%;
+  margin-top: 50px;
+}
 }
