@@ -36,9 +36,17 @@ body{
 }
 .theme-button-two{
   background: #FFE492;
-  border-radius: 18px;
+  border-radius: 8px;
   color: #043873 !important;
   padding: 16px 28px !important;
+}
+
+.theme-button-three{
+  border: 1px solid #FFE492;
+  border-radius: 8px;
+  color: #212529;
+  padding: 16px 28px !important;
+  text-decoration: none;
 }
 .theme-button img{
   margin-left: 10px;
@@ -204,6 +212,9 @@ font-size: 45px;
   background-color: #043873;
   padding: 70px 0;
 }
+.extension-section .project-text{
+  margin-right: 20px;
+}
 .extension .project-text h3{
   font-weight: 700;
 font-size: 45px;
@@ -251,6 +262,9 @@ font-size: 45px;
   background-color: #fff;
   padding: 70px 0;
 }
+.customise-section .project-text{
+  padding-left: 50px !important;
+}
 .customise-section .project-text h3{
   color: #212529;
   font-weight: 700;
@@ -296,4 +310,98 @@ font-size: 45px;
   size: 50%;
   margin-top: 50px;
 }
+}
+
+
+/* pricing area css*/
+.pricing-area{
+  background-color: #fff;
+  padding: 70px 0;
+  color: #212529;
+}
+.pricing-area .project-text h3{
+  color: #212529;
+  font-weight: 700;
+font-size: 45px;
+}
+.pricing-area .project-text p{
+  color: #212529;
+  font-size: 18px;
+}
+.pricing-area .project-text h3 span{
+  position: relative;
+  z-index: 1;
+}
+.pricing-area .project-text h3 span::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(element.png);
+  background-repeat: no-repeat;
+}
+.single-pricing{
+  border: 1px solid #FFE492;
+border-radius: 10px;
+padding: 40px 44px;
+}
+.single-pricing h4{
+  font-size: 24px;
+  font-weight: 500;
+}
+.single-pricing h2{
+  font-size: 36px;
+  font-weight: 700px;
+  padding: 10px;
+}
+.single-pricing ul{
+  margin: 0;
+  padding: 0;
+  margin: 25px 0;
+}
+.single-pricing ul li{
+  list-style: none;
+  margin-bottom: 28px;
+  font-size: 16px;
+}
+.single-pricing ul li:last-child{
+  margin: 0;
+}
+.single-pricing-middle{
+  border: 1px solid #FFE492;
+border-radius: 10px;
+padding: 80px 44px;
+background-color: #043873;
+color: #fff;
+
+}
+.single-pricing-middle h4{
+  font-size: 24px;
+  font-weight: 500;
+}
+.single-pricing-middle h2{
+  font-size: 36px;
+  font-weight: 700px;
+  padding: 10px;
+  color: #FFE492;
+}
+.single-pricing-middle ul{
+  margin: 0;
+  padding: 0;
+  margin: 25px 0;
+}
+.single-pricing-middle ul li{
+  list-style: none;
+  margin-bottom: 28px;
+}
+@media (max-width: 991px) {
+  .pricing-area .project-text h3{
+    font-size: 36px;
+  }
+  .pricing-area .col-lg-4{
+    padding-bottom: 50px;
+  }
 }
