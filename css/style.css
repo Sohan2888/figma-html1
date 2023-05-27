@@ -198,3 +198,49 @@ font-size: 45px;
   margin-top: 50px;
 }
 }
+
+/* extention area css*/
+.extension{
+  background-color: #043873;
+  padding: 70px 0;
+}
+.extension .project-text h3{
+  font-weight: 700;
+font-size: 55px;
+}
+.extension .project-text h3 span{
+  position: relative;
+  z-index: 1;
+}
+.extension .project-text h3 span::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(element.png);
+  background-repeat: no-repeat;
+}
+@media (max-width: 991px) {
+  .extension .project-text{
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .extension .project-text h3{
+    font-size: 36px;
+    z-index: -1;
+    padding-bottom: 10px;
+  }
+  .extension .project-text{
+    text-align: center;
+    
+  }
+  .extension .project-textt h3{ 
+    font-size: 30px;
+}
+.extension .hero-image{
+  size: 50%;
+  margin-top: 50px;
+}
