@@ -476,7 +476,7 @@ font-size: 55px;
 /* our sponsors css*/
 .our-sponsors{
   background-color: #fff;
-  padding: 40px 0;
+  padding: 70px 0;
 }
 .our-sponsors .project-text h3{
   font-weight: 700;
@@ -508,3 +508,24 @@ color: #212529;
     margin: 50px 0;
   }
 }
+
+/*Work with Your section css*/
+.work-with{
+  padding: 70px 0;
+  background-color: #043873;
+  background-image: url(hero-bg-img.png);
+  background-size: cover;
+  background-position: center;
+}
+.work-with h3{
+  font-size: 45px;
+}
+@media (max-width: 991px){
+  .work-with .row .project-text{
+    text-align: center;
+    padding: 30px 0;
+  }
+  .work-with .row .project-text .py-4{
+    padding: 700px 0;
+  }
+  }
